@@ -1,0 +1,6 @@
+﻿
+
+PM> Add-Migration Identity00001
+
+PM> Update-Database
+

@@ -38,6 +38,8 @@ namespace Microsoft.Extensions.DependencyInjection
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
+
+
             var connectionString = configuration.GetConnectionString("DefaultConnection");
             var migrationsAssembly = typeof(Program).GetTypeInfo().Assembly.GetName().Name;
 

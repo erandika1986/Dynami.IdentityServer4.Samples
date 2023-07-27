@@ -1,9 +1,11 @@
-using IdentityServerHost.Quickstart.UI;
-using InMemorySample;
+
+
+using AdminUISample.Extensions;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddServices();
+builder.Services.AddServices(builder.Configuration);
 
 var app = builder.Build();
 
@@ -17,4 +19,4 @@ app.UseEndpoints(endpoints =>
     endpoints.MapDefaultControllerRoute();
 });
 
-app.Run();
+app.MigrateDatabase().Run();

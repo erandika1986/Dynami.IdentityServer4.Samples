@@ -1,0 +1,7 @@
+﻿PM> Add-Migration InitialPersistedGranMigration -c PersistedGrantDbContext -o Migrations/IdentityServer/PersistedGrantDb
+PM> Add-Migration InitialConfigurationMigration -c ConfigurationDbContext -o Migrations/IdentityServer/ConfigurationDb
+
+PM> Add-Migration Identity00001 -c ApplicationDbContext
+
+PM> Update-Database -Context ApplicationDbContext
+

@@ -1,9 +1,9 @@
-﻿using AdminUISample.Configuration;
+﻿using FullFrameworkWithAdminUISample.Configuration;
 using Dynami.IdentityServer4.EntityFramework.DbContexts;
 using Dynami.IdentityServer4.EntityFramework.Mappers;
 using Microsoft.EntityFrameworkCore;
 
-namespace AdminUISample.Extensions
+namespace FullFrameworkWithAdminUISample.Extensions
 {
     public static class MigrationManager
     {

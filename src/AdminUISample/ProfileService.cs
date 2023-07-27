@@ -1,4 +1,4 @@
-﻿using AdminUISample.Models;
+﻿using FullFrameworkWithAdminUISample.Models;
 using Dynami.IdentityServer4.Extensions;
 using Dynami.IdentityServer4.Models;
 using Dynami.IdentityServer4.Services;
@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using System.Data;
 using System.Security.Claims;
 
-namespace AdminUISample
+namespace FullFrameworkWithAdminUISample
 {
     public sealed class ProfileService : IProfileService
     {

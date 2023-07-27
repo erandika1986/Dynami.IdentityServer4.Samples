@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace AdminUISample.Migrations
+namespace FullFrameworkWithAdminUISample.Migrations
 {
     /// <inheritdoc />
     public partial class Identity00001 : Migration

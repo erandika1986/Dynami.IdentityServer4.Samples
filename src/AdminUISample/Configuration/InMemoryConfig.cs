@@ -4,7 +4,7 @@ using Dynami.IdentityServer4;
 using IdentityModel;
 using System.Security.Claims;
 
-namespace AdminUISample.Configuration
+namespace FullFrameworkWithAdminUISample.Configuration
 {
     public static class InMemoryConfig
     {

@@ -1,8 +1,8 @@
-﻿using AdminUISample.Models;
+﻿using FullFrameworkWithAdminUISample.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AdminUISample.Data
+namespace FullFrameworkWithAdminUISample.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

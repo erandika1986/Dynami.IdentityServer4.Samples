@@ -21,7 +21,7 @@ using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 using static Dynami.IdentityServer4.IdentityServerConstants;
 using Newtonsoft.Json;
-using AdminUISample.Models;
+using FullFrameworkWithAdminUISample.Models;
 
 namespace IdentityServerHost.Quickstart.UI
 {

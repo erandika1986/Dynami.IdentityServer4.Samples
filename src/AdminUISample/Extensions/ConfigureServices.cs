@@ -1,6 +1,6 @@
-﻿using AdminUISample;
-using AdminUISample.Data;
-using AdminUISample.Models;
+﻿using FullFrameworkWithAdminUISample;
+using FullFrameworkWithAdminUISample.Data;
+using FullFrameworkWithAdminUISample.Models;
 using Dynami.IdentityServer4;
 using Dynami.IdentityServer4.Configuration;
 using Dynami.IdentityServer4.EntityFramework.Microsoft.Extensions.DependencyInjection;

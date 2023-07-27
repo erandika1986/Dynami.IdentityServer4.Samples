@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace AdminUISample.Migrations.IdentityServer.PersistedGrantDb
+namespace FullFrameworkWithAdminUISample.Migrations.IdentityServer.PersistedGrantDb
 {
     [DbContext(typeof(PersistedGrantDbContext))]
     [Migration("20230727070622_InitialPersistedGranMigration")]

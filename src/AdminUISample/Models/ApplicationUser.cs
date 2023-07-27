@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace AdminUISample.Models
+namespace FullFrameworkWithAdminUISample.Models
 {
     public class ApplicationUser : IdentityUser
     {
